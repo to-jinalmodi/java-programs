@@ -7,6 +7,10 @@ public class Execute {
         Person p1 = new Person("Bob", 20 );
         Person p2 = new Person("Bob", 20 );
 
+        // Java compiler internally invokes the toString() method
+        System.out.println(p1);
+        System.out.println(p2.toString());
+
         // This compares object type address
         System.out.println(p1 == p2);
 

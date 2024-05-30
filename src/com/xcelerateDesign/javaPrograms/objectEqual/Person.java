@@ -18,6 +18,13 @@ public class Person {
     }
 
     @Override
+    public String toString() {
+
+        return this.name + " " + this.age;
+
+    }
+
+    @Override
     public boolean equals(Object obj) {
 
         Person otherObj = (Person) obj;
